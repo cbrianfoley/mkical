@@ -68,6 +68,6 @@ for row in data:
    cal.add_component(event)
 
 cal = cal.to_ical()
-f = open('/var/www/html/sound_schedule.ics', 'wb')
+f = open('.', 'wb')
 f.write(cal)
 f.close()
